@@ -25,6 +25,9 @@ fn main() {
 		_ => &DEVIS_FR,
 	};
 
-	println!("Content-type: text/html\n");
+	if args.len() < 2 {
+		println!("Content-type: text/html\n");
+	}
+
 	println!("{}", devis[thread_rng().gen_range(0, devis.len())]);
 }
