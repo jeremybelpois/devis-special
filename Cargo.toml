@@ -1,5 +1,5 @@
 [package]
-name = "devis-spécial"
+name = "devis-special"
 version = "0.1.0"
 authors = ["Jérémy Belpois <jeremy@lyoko.net>"]
 edition = "2018"
